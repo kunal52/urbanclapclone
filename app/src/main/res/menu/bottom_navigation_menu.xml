@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_search"
+        android:id="@+id/search_bottom_menu"
+        android:title="@string/search" />
+    <item
+        android:icon="@drawable/ic_booking"
+        android:id="@+id/my_booking_bottom_menu"
+        android:title="@string/my_booking" />
+    <item
+        android:icon="@drawable/ic_wallet"
+        android:id="@+id/my_wallet_bottom_menu"
+        android:title="@string/my_wallet" />
+    <item
+        android:icon="@drawable/ic_profile"
+        android:id="@+id/profile_bottom_menu"
+        android:title="@string/profile" />
+</menu>

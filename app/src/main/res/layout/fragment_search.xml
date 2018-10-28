@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.SearchFragment">
+
+    <LinearLayout
+        android:id="@+id/root_view_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D3D3D3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:padding="8dp">
+
+            <EditText
+                android:id="@+id/search_edittext"
+                android:editable="false"
+                android:inputType="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/search_edittext_"
+                android:drawableStart="@drawable/ic_search"
+                android:hint="@string/search_for_service" />
+        </LinearLayout>
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="8dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:columnCount="3"
+            android:rowCount="3">
+
+            <TextView
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/grid_layout_background"
+                android:clickable="true"
+                android:drawableTop="@drawable/ic_profile"
+                android:drawablePadding="4dp"
+                android:padding="8dp"
+                android:text="Beauty"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/grid_layout_background"
+                android:clickable="true"
+                android:drawableTop="@drawable/ic_profile"
+                android:drawablePadding="4dp"
+                android:padding="8dp"
+                android:text="Beauty"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/grid_layout_background"
+                android:clickable="true"
+                android:drawableTop="@drawable/ic_profile"
+                android:drawablePadding="4dp"
+                android:padding="8dp"
+                android:text="Beauty"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/grid_layout_background"
+                android:clickable="true"
+                android:drawableTop="@drawable/ic_profile"
+                android:drawablePadding="4dp"
+                android:padding="8dp"
+                android:text="Beauty"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/grid_layout_background"
+                android:clickable="true"
+                android:drawableTop="@drawable/ic_profile"
+                android:drawablePadding="4dp"
+                android:padding="8dp"
+                android:text="Beauty"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/grid_layout_background"
+                android:clickable="true"
+                android:drawableTop="@drawable/ic_profile"
+                android:drawablePadding="4dp"
+                android:padding="8dp"
+                android:text="Beauty"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/grid_layout_background"
+                android:clickable="true"
+                android:drawableTop="@drawable/ic_profile"
+                android:drawablePadding="4dp"
+                android:padding="8dp"
+                android:text="Beauty"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/grid_layout_background"
+                android:clickable="true"
+                android:drawableTop="@drawable/ic_profile"
+                android:drawablePadding="4dp"
+                android:padding="8dp"
+                android:text="Beauty"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="1dp"
+                android:background="@drawable/grid_layout_background"
+                android:clickable="true"
+                android:drawableTop="@drawable/ic_profile"
+                android:drawablePadding="4dp"
+                android:padding="8dp"
+                android:text="Beauty"
+                android:textAlignment="center" />
+
+
+        </GridLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    android:paddingStart="4dp"
+    android:paddingTop="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="?attr/actionBarSize"
+    tools:ignore="RtlSymmetry">
+
+
+
+    <TextView
+        android:textSize="14sp"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:id="@+id/u_r_in"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:text="@string/you_are_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:textSize="18sp"
+        android:layout_alignParentStart="true"
+        android:textColor="@android:color/white"
+        android:id="@+id/your_location"
+        android:textAppearance="@style/TextAppearance.AppCompat.Title"
+        android:layout_below="@id/u_r_in"
+        android:text="@string/enter_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:tint="@android:color/white"
+        android:textColor="@android:color/white"
+        android:contentDescription="@string/select_your_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/u_r_in"
+        android:layout_toEndOf="@id/your_location"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_arrow_drop_down_black_24dp" />
+
+</RelativeLayout>
